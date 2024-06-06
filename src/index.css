@@ -1,0 +1,40 @@
+:root {
+  --color-1: #F5F5F5;
+  --white: #FFFFFF;
+  --color-3:#00000029;
+  --color-4:#101010;
+  --color-5:#8D8D8D;
+  --color-6:#FF5E8A;
+  --color-7:#F3F3F3;
+  --color-8:#0EC297;
+  --color-9: #88C2BB;
+  --color-10: #303030;
+  --color-11: #9A9A9E;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./Fonts/Gilroy-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./Fonts/Gilroy-Medium.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./Fonts/Gilroy-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+body{
+  background: var(--color-1);
+  font-family: 'Gilroy';
+}

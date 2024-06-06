@@ -1,0 +1,146 @@
+.dashboard{
+    display: flex;
+    gap: 30px;
+    margin: 40px auto;
+}
+.logo-navbar, .search-posts, .suggestions{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.logo{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    background: var(--white);
+    width: 260px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 32px;
+    font-family: serif;
+}
+.navbar{
+    background: var(--white);
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    border-radius: 10px;
+    padding : 41px 0;
+}
+.navlink{
+    display: flex;
+    gap: 14px;
+    padding: 6px 32px;
+    color: var(--color-5);
+    cursor: pointer;
+}
+.navlink:hover  {
+    color: var(--color-4);
+}
+.navbar .active{
+    border-left: 4px solid var(--color-9);
+    font-weight: 600;
+    color: var(--color-4);
+}
+.logout span{
+    color: var(--color-9);
+}
+/* middle column css: */
+.search-posts{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.search-container{
+    background: var(--white);
+    height: 80px;
+    width: 620px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+.search{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.search input{
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    height: 30px;
+    &&::placeholder{
+        color: var(--color-11);
+    }
+}
+.filter-btn{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.painting-card-slider{
+    width: 620px;
+    overflow: auto;
+    display: flex;
+    gap: 20px;
+}
+.painting-card-slider::-webkit-scrollbar{
+    display: none;
+}
+/* right column css: */
+.suggestions-column{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.seller-btn{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    background: var(--color-9);
+    color: white;
+    font-weight: 600;
+    width: 260px;
+    height: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.artists-photographers-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.artists-photographers{
+    display: flex;
+    gap: 24px;
+    font-weight: 600;
+    color: var(--color-5);
+}
+.artists-photographers .active{
+    color: var(--color-4);
+}
+.artists-slide{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer span{
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--color-5);
+}

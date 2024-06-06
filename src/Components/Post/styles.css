@@ -1,0 +1,87 @@
+
+.post {
+  width: 620px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+  background: var(--white);
+  border-radius: 10px 10px 0 0;
+}
+.top-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+}
+.user-info img{
+    width: 48px;
+    height: 48px;
+}
+.user-info .name{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-4);
+}
+.user-info .username{
+    font-size: 14px;
+    color: var(--color-5);
+}
+.more{
+    font-size: 20px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+}
+.description{
+    font-size: 14px;
+    color: var(--color-4);
+}
+.description span{
+    color: var(--color-6);
+     cursor: pointer;
+}
+.poster{
+    position: relative;
+}
+.poster .white-heart{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+height: 22px;
+cursor: pointer;
+}
+.poster>img{
+    width: 100%;
+}
+.horizontal-line{
+    width: 100%;
+    border: 2px solid var(--color-7);
+}
+.like-comment-share{
+    display: flex;
+    border-radius: 0 0 10px 10px;
+    background: var(--white);
+    border-top : 2px solid var(--color-7);
+    padding: 24px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
